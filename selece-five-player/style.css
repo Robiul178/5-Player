@@ -1,3 +1,4 @@
+
 .hero-section{
     background-color: black;
     height: 481px;
@@ -19,7 +20,7 @@
 }
 .header-image2{
     position: absolute;
-    left: 1385px;
+    left: 1265px;
     top: 233px;
 }
 .common{
@@ -34,3 +35,6 @@
     background: #0D0D0D;
     border: 1px solid #434343;
 }
+/* #martinez{
+    background-color: blue;
+} */

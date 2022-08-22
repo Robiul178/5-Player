@@ -35,53 +35,85 @@
                 </div>
             </div>
         </section>
-    </header><br><br>
+    </header>
     <!-- Player Section -->
-    <section>
+    <section class="bg-gray-800 py-5 ">
         <div class="container w-9/12">
             <div class="row">
-                <div class="col-md-3">
-                    <div>
-                        <div class="card" style="width: 250px; height: 350px;">
-                            <img src="player/781186.jpg" class="card-img-top">
-                            <div class="card-body text-center">
-                               <h3 class="text-2xl font-bold">Lionel Messi</h3> <br>
-                               <div class="btn btn-danger">Select</div>
-                            </div>
-                          </div>
+                <div class="col-md-3 h-2/4 img-fluid">
+                    <img src="player/wc1717188.jpg" alt="">
+                    <div class="bg-black text-center text-white">
+                       <h1>Lionel Messi</h1>
+                       <button class="btn btn-primary px-5 mt-3 mb-1" onclick="disable(this)" id="messi">Select</button>
                     </div>
                 </div>
-                <div class="col-md-3">
-                    <div>
-                        <div class="card" style="width: 250px; height: 350px;">
-                            <img src="player/Cristiano Ronaldo.jpg" class="card-img-top">
-                            <div class="card-body text-center">
-                               <h3 class="text-2xl font-bold">Lionel Messi</h3> <br>
-                               <div class="btn btn-danger">Select</div>
-                            </div>
-                          </div>
+                <div class="col-md-3 h-2/4 img-fluid">
+                    <img src="player/Emiliano Martínez (1).jpg" alt="">
+                    <div class="bg-black text-center text-white">
+                       <h1>Emiliaon Martinez</h1>
+                       <button class="btn btn-primary px-5 mt-3 mb-1" onclick="disable(this)" id="martinez">Select</button>
                     </div>
                 </div>
-                <div class="col-md-3">
-                    <div>
-                        <div class="card" style="width: 250px; height: 350px;">
-                            <img src="player/Emiliano Martínez (1).jpg" class="card-img-top">
-                            <div class="card-body text-center">
-                               <h3 class="text-2xl font-bold">Lionel Messi</h3> <br>
-                               <div class="btn btn-danger">Select</div>
-                            </div>
-                          </div>
+
+                <div class="col-md-3 h-2/4 img-fluid">
+                    <img src="player/Sadio Mané.jpg" alt="">
+                    <div class="bg-black text-center text-white">
+                       <h1>Sadio Mane</h1>
+                       <button class="btn btn-primary px-5 mt-3 mb-1" onclick="disable(this)" id="sadio">Select</button>
                     </div>
                 </div>
-               
-                <div class="col-md-3"></div>
-              
-            </div>
+
+               <div class="col-md-3 img-fluid bg-black">
+                <div class="text-white text-center">
+                    <h1 class="text-2xl mt-2">Selected-V</h1>
+                    <ul id="list-container">
+                       <li class="listItem"></li>
+                    </ul>
+                </div>    
+           </div>
+           </div>
+
+           
+            <div class="row mt-3">
+                <div class="col-md-3 h-2/4 img-fluid">
+                    <img src="player/wc1717188.jpg" alt="">
+                    <div class="bg-black text-center text-white">
+                       <h1>Lionel Messi</h1>
+                       <button class="btn btn-primary px-5 mt-3 mb-1" onclick="disable(this)" id="messi">Select</button>
+                    </div>
+                </div>
+                <div class="col-md-3 h-2/4 img-fluid">
+                    <img src="player/Emiliano Martínez (1).jpg" alt="">
+                    <div class="bg-black text-center text-white">
+                       <h1>Emiliaon Martinez</h1>
+                       <button class="btn btn-primary px-5 mt-3 mb-1" onclick="disable(this)" id="martinez">Select</button>
+                    </div>
+                </div>
+
+                <div class="col-md-3 h-2/4 img-fluid">
+                    <img src="player/Sadio Mané.jpg" alt="">
+                    <div class="bg-black text-center text-white">
+                       <h1>Sadio Mane</h1>
+                       <button class="btn btn-primary px-5 mt-3 mb-1" onclick="disable(this)" id="sadio">Select</button>
+                    </div>
+                </div>
+                
+               <div class="col-md-3">
+                
+                </div>
+            </div> 
+           
         </div>
     </section>
 
 
     <!-- JavaScript -->
-   <script src="style.js"></script>
+    <script>
+       function disable(x){
+        x.disabled = true;
+       }
+    </script>
+
+   <script src="for-player-select.js"></script>
 </body>
 </html>
