@@ -1,3 +1,36 @@
 .hero-section{
     background-color: black;
+    height: 481px;
+}
+.header-img img {
+    position: absolute;
+    left: 4px;
+    top: 16px;
+    height: 465px;
+    width: 360px;
+}
+.header-text {
+    margin-top: 20%;
+}
+.header-text h1{
+    font-size: 76px;
+    font-family: 'Berkshire Swash', cursive;
+   color: rgba(255, 94, 25, 1);
+}
+.header-image2{
+    position: absolute;
+    left: 1385px;
+    top: 233px;
+}
+.common{
+    box-sizing: border-box;
+
+    /* position: absolute; */
+    width: 264px;
+    height: 371px;
+    /* left: 156px;
+    top: 555px; */
+    
+    background: #0D0D0D;
+    border: 1px solid #434343;
 }
