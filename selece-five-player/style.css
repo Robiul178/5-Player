@@ -35,6 +35,12 @@
     background: #0D0D0D;
     border: 1px solid #434343;
 }
-/* #martinez{
-    background-color: blue;
+/* .budget-section{
+    height: 500px;
 } */
+
+.player input[type="text"]
+{
+    background-color: transparent;
+    border: 1px solid;
+}
