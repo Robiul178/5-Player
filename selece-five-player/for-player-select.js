@@ -1,4 +1,9 @@
 
+  function disable(x){
+    x.disabled = true;
+   }
+
+   
   //For Messi//
 document.getElementById('messi').addEventListener("click", function(){
     const listContainer = document.getElementById('list-container');
