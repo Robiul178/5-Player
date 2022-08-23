@@ -44,3 +44,8 @@
     background-color: transparent;
     border: 1px solid;
 }
+input.coach {
+    position: relative;
+    right: -20px;
+    
+}
