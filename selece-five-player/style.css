@@ -49,3 +49,16 @@ input.coach {
     right: -20px;
     
 }
+input#coach-cost {
+    position: relative;
+    right: -18px;
+}
+button#total-calculate-btn {
+    padding-right: 85px;
+}
+.footer {
+    background-color: #151515;
+    color: white;
+    padding: 100px;
+    border-top: 1px solid gray;
+}
