@@ -104,7 +104,7 @@
                     </div>
                 </div>
                 
-                <div class="col-md-3 bg-black budget-section">
+                <div class="col-md-3 bg-black budget-section text-1xl">
                       <div class="text-white">
                         <h1 class="text-2xl mt-2 text-center" id="player-budget">Budget</h1> <br>
                         <div>
@@ -112,18 +112,17 @@
                                 <input type="text" name="" id="per-player">
                             </label>  
                             <button id="calculate-button" class="calculate-btn px-24 py-1 mt-3 mb-2 bg-primary">Calculate</button>
+                            <h2><span class="text-muted me-2">Per Player</span>$<span id="total-calcu">00</span></h2>
                             
-                            <h2 class="text-3xl text-white">Withdraw</h2>
-                            <h2 class="text-3xl text-white mt-2">$<span id="total-calculation">000</span></h2>
-
                             <label class="player mt-2"><span class="text-muted">Manager</span> 
-                                <input type="text" name="" value="2000" id="">
+                                <input type="text" name="" value="2000" id="manager-cost">
                             </label>
-                            <label class="mt-2 player"> <span class="text-muted">Coach</span>   
-                                <input type="text" value="4000" name="" class="coach" id="">
+                            <label class="player mt-2"><span class="text-muted">Coach</span> 
+                                <input type="text" name="" value="4000" id="coach-cost">
                             </label>
-                            <button class="px-16 align-items-center py-1 mt-3 mb-2 bg-primary">Calculate Total</button> <br> <br>
-                            <span class="pe-3 text-muted"> Total Cost</span> $<span>000</span>
+                            
+                            <button class="px-16 align-items-center py-1 mt-3 mb-2 bg-primary" id="total-calculate-btn">Calculate Total</button> <br> <br>
+                            <span class="pe-3 text-muted"> Total Cost</span> $<span id="allTotal-cost">000</span>
 
                         </div>
                       </div>
@@ -134,9 +133,10 @@
 
 
     <!-- JavaScript -->
-  
+    <script src="playerCost.js"></script>
    <script src="for-player-select.js"></script>
    <script src="calculation.js"></script>
+  
 
 </body>
 </html>
